@@ -87,7 +87,7 @@
 # print(list1)
 # list1.insert(2,"inseted_elemet")
 # print(list1)
-# list1.pop()
+# item=list1.pop()  # pop() method return last elemnet and delete also
 # print(list1)
 # # list1.sort() #this give erroe because list contain int and string there fore it can not compair int and string \
 # # print(list1)
