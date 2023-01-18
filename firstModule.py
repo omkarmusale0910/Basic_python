@@ -24,3 +24,9 @@ def power_op(a,n):
 
 # print(power_op(2,6))
 # print(sqrt_op(25))
+
+def power_seq(a,n):
+    ans=1;
+    for i in range(n):
+        ans*=a;
+    return ans;
