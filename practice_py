@@ -246,44 +246,64 @@ but for binery
 'rb' read in binery  
 '''
 
-try:
+# try:
 
-    f1=open('college.txt','x')
-    if(f1):
-        print("file create sucssesfully")
-    f1.close()
-except:
-    print("file is already exits")
-finally:
-    choice=int(input("1:write \n2:append \ndefault:read"))
-    if(choice==1):
-        # pass 
-        f1=open('college.txt','w')
-        if(f1.writable()):
-            print("file in writable mode")
-            str=input("write into file")
-            f1.write(str);
-            f1.close()
-    elif choice==2:
-        f1=open('college.txt','a')
-        if(f1.writable()):
-            print("file is in append mode")
-            str=input("append into file")
-            f1.write("\n"+str);
-            f1.close()
-    else:
-        f1=open('college.txt','r3')
-        if(f1.readable()):
-            print("file in read mode")
-            print(f1.read())
-            f1.seek(0)
-            list1=f1.readline() # just reed one line 
-            print(list1)
-            f1.seek(0)
-            list1=f1.readlines(); # return every line in file 
-            print(list1)
-            f1.close()
+#     f1=open('college.txt','x')
+#     if(f1):
+#         print("file create sucssesfully")
+#     f1.close()
+# except:
+#     print("file is already exits")
+# finally:
+#     choice=int(input("1:write \n2:append \ndefault:read"))
+#     if(choice==1):
+#         # pass 
+#         f1=open('college.txt','w')
+#         if(f1.writable()):
+#             print("file in writable mode")
+#             str=input("write into file")
+#             f1.write(str);
+#             f1.close()
+#     elif choice==2:
+#         f1=open('college.txt','a')
+#         if(f1.writable()):
+#             print("file is in append mode")
+#             str=input("append into file")
+#             f1.write("\n"+str);
+#             f1.close()
+#     else:
+#         f1=open('college.txt','r')
+#         if(f1.readable()):
+#             print("file in read mode")
+#             print(f1.read())
+#             f1.seek(0)
+#             list1=f1.readline() # just reed one line 
+#             print(list1)
+#             f1.seek(0)
+#             list1=f1.readlines(); # return every line in file 
+#             print(list1)
+#             f1.close()
        
 
+# # for delete the file 
+# # import os
+# # os.remove('college.txt')
 
+
+
+
+# class 
+
+class Person:
+    def __init__(self,name,age,gender):
+        self.name=name
+        self.age=age
+        self.gender=gender
+
+    def p(self):
+        print(f'name of the person is {self.name} age of a person is {self.age} and his gender is {self.gender}')
+
+
+p1=Person("omkar musale",20,"male")
+p1.p()
 
