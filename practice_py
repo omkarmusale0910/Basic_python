@@ -344,6 +344,7 @@ but for binery
 
 # if the argument is in the form of key pair than used ** with variable length argument
 
+
 # def fun1(**args):
 #     for x,y in args.items():
 #         print(x,y);
@@ -389,17 +390,32 @@ but for binery
 # print(sq)
 
 # list_input contain function 
-import math
-squ=lambda x:x*x
-cube=lambda x:x**3
-sqrt=lambda x:math.sqrt(x);
+# import math
+# squ=lambda x:x*x
+# cube=lambda x:x**3
+# sqrt=lambda x:math.sqrt(x);
 
-funcs=[squ,cube,sqrt] #list of functions
-l=[]
-for i in range(10):
-    l.append(list(map(lambda x:x(i),funcs)))
+# funcs=[squ,cube,sqrt] #list of functions
+# l=[]
+# for i in range(10):
+#     l.append(list(map(lambda x:x(i),funcs)))
 
-print(l)
+# print(l)
 
 
 
+# filter
+# we can applay filter on list of element and filter appropriate element 
+# print(type(range(-5,5)))
+# R=range(-5,5)
+# value_even=list(filter(lambda x:not(x&1),R))
+# print(value_even)
+
+
+
+# reduce
+l=[1,2,3,4,5]
+from functools import reduce
+value=reduce(lambda x,y:x*y,l)
+add_value=reduce(lambda x,y:x+y,l)
+print(value,add_value)
