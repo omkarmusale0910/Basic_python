@@ -310,26 +310,26 @@ but for binery
 
 # inheritance 
 
-class Person:
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
+# class Person:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
 
-    def p(self):
-        print(f'name of the person is {self.name} age of a person is {self.age} ')
-
-
-class Student(Person):
-    def __init__(self,name,age,roll_no):
-        super().__init__(name,age)
-        self.roll_no=roll_no
-    def funp(self):
-        print(self.roll_no)
-        self.p()
+#     def p(self):
+#         print(f'name of the person is {self.name} age of a person is {self.age} ')
 
 
-std=Student("omkar",20,8);
-std.funp();
+# class Student(Person):
+#     def __init__(self,name,age,roll_no):
+#         super().__init__(name,age)
+#         self.roll_no=roll_no
+#     def funp(self):
+#         print(self.roll_no)
+#         self.p()
+
+
+# std=Student("omkar",20,8);
+# std.funp();
 
 
 # variable length argument 
@@ -380,6 +380,26 @@ std.funp();
 # print(two_D_list)
 
 
+# map 
+# this usefull when we want to appaly function to list of input
+# map(function,input_list)
+# num=[1,2,3,4,5,6]
+# sq=[]
+# sq=list(map(lambda x:x*x,num))
+# print(sq)
+
+# list_input contain function 
+import math
+squ=lambda x:x*x
+cube=lambda x:x**3
+sqrt=lambda x:math.sqrt(x);
+
+funcs=[squ,cube,sqrt] #list of functions
+l=[]
+for i in range(10):
+    l.append(list(map(lambda x:x(i),funcs)))
+
+print(l)
 
 
 
