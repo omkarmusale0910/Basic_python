@@ -7,6 +7,7 @@
 #
 
 
+
 #there are three basc datatype in python number (int ,or float),boolean ,string
 
 # is_male=True
@@ -204,7 +205,7 @@
 # def calculator(n1,n2,op):
 #     if(op=='+'):
 #         return n1+n2
-#     elif(op=="-"):     # here we can treate - as a charter and string also
+#     elif(op=="-"):     # there is no character concept in python it all string string csn be represet in ''  "" quote
 #         return n1-n2
 #     elif(op=='*'):
 #         return n1*n2
@@ -422,13 +423,18 @@ asbchjanas
 # open() method is used to open the file it take 1st argument as file_path ,2nd is mode in which file open
 
 # def string_con(str):
+#     '''
 #     new_str=""
 #     for i in range(len(str)-1):
 #         new_str+=str[i]
 #     return new_str
-#
-#
-# f1=open("salary.txt",'r') #type of mode r->read , r+ ->read+write , a -> append , w->write
+#     '''
+#     list1=list(str);
+#     list2=list1[:len(str)-1] #len1-1 because of last character of line may be '\n'
+#     return ''.join(list2)
+
+
+# f1=open("salary.txt",'r') #type of mode r->read , r+ ->read+write , a -> append , w->write x->create file
 # if(f1.readable()):
 #     print("file is sucseesfully open ")
 #     # print(f1.read())
@@ -439,15 +445,15 @@ asbchjanas
 #     # print(List11[0])
 #     # for line in List11:
 #     #     print(line,end="")
-#
-#
+
+
 #     for line in f1.readlines():
 #         line=string_con(line) #this line string contain new line character at the end of string (\n)
 #         print(line,end="")
-#
+
 # else:
 #     print("file is not in read mode ")
-#
+
 # f1.close()
 
 # for creating new file and write into it
@@ -570,3 +576,5 @@ std.output()
 
 
 
+for i in range (10):
+    print(i,end=" , ");
