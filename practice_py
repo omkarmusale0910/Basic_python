@@ -294,16 +294,92 @@ but for binery
 
 # class 
 
+# class Person:
+#     def __init__(self,name,age,gender):
+#         self.name=name
+#         self.age=age
+#         self.gender=gender
+
+#     def p(self):
+#         print(f'name of the person is {self.name} age of a person is {self.age} and his gender is {self.gender}')
+
+
+# p1=Person("omkar musale",20,"male")
+# p1.p()
+
+
+# inheritance 
+
 class Person:
-    def __init__(self,name,age,gender):
+    def __init__(self,name,age):
         self.name=name
         self.age=age
-        self.gender=gender
 
     def p(self):
-        print(f'name of the person is {self.name} age of a person is {self.age} and his gender is {self.gender}')
+        print(f'name of the person is {self.name} age of a person is {self.age} ')
 
 
-p1=Person("omkar musale",20,"male")
-p1.p()
+class Student(Person):
+    def __init__(self,name,age,roll_no):
+        super().__init__(name,age)
+        self.roll_no=roll_no
+    def funp(self):
+        print(self.roll_no)
+        self.p()
+
+
+std=Student("omkar",20,8);
+std.funp();
+
+
+# variable length argument 
+#  by using * and ** 
+# def fun(*args):
+#     ans=1
+#     for x in args:
+#         ans*=x;
+#     return ans;
+
+# print(fun(1,2,4,5,3,0))
+
+# if the argument is in the form of key pair than used ** with variable length argument
+
+# def fun1(**args):
+#     for x,y in args.items():
+#         print(x,y);
+
+
+# fun1(name="omkar",age=10,is_male=True)
+
+
+# # lamda function it is maily used in reduce and map method and u
+# lam1=lambda *args:max(args)
+
+# print(lam1(2,3,5,9))
+
+# lam2=lambda x,y,z:x+y+z
+# print(lam2(1,2,3))
+# lam2=lambda x,y,z:x+y+z
+# # print(lam2(1,2,3))
+# list1=[(1,2),(2,-3),(-4,100),(-4,101),(100,8)]
+# list1.sort() # this sort based of 1st argument is 1 parameter is same then only it sort based of second argument
+# print(list1)
+# list1.sort(key=lambda x:x[1])
+# print(list1)
+
+
+# without using lamda 
+# def sorting(l):
+#     ans=0
+#     for x in l:
+#         ans+=x
+#     return ans
+
+# two_D_list=[[1,2,3],[4,5-2],[-52,36,23],[0,-9,4]]
+# two_D_list.sort(key=sorting)
+# print(two_D_list)
+
+
+
+
 
