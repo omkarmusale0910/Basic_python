@@ -414,8 +414,10 @@ but for binery
 
 
 # reduce
-l=[1,2,3,4,5]
-from functools import reduce
-value=reduce(lambda x,y:x*y,l)
-add_value=reduce(lambda x,y:x+y,l)
-print(value,add_value)
+# l=[1,2,3,4,5]
+# from functools import reduce
+# value=reduce(lambda x,y:x*y,l)
+# add_value=reduce(lambda x,y:x+y,l)
+# print(value,add_value)
+
+
