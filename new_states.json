@@ -1,0 +1,254 @@
+{
+  "states": [
+    {
+      "name": "Alabama",
+      "abbreviation": "AL",
+      "age": 20
+    },
+    {
+      "name": "Alaska",
+      "abbreviation": "AK",
+      "age": 20
+    },
+    {
+      "name": "Arizona",
+      "abbreviation": "AZ",
+      "age": 20
+    },
+    {
+      "name": "Arkansas",
+      "abbreviation": "AR",
+      "age": 20
+    },
+    {
+      "name": "California",
+      "abbreviation": "CA",
+      "age": 20
+    },
+    {
+      "name": "Colorado",
+      "abbreviation": "CO",
+      "age": 20
+    },
+    {
+      "name": "Connecticut",
+      "abbreviation": "CT",
+      "age": 20
+    },
+    {
+      "name": "Delaware",
+      "abbreviation": "DE",
+      "age": 20
+    },
+    {
+      "name": "Florida",
+      "abbreviation": "FL",
+      "age": 20
+    },
+    {
+      "name": "Georgia",
+      "abbreviation": "GA",
+      "age": 20
+    },
+    {
+      "name": "Hawaii",
+      "abbreviation": "HI",
+      "age": 20
+    },
+    {
+      "name": "Idaho",
+      "abbreviation": "ID",
+      "age": 20
+    },
+    {
+      "name": "Illinois",
+      "abbreviation": "IL",
+      "age": 20
+    },
+    {
+      "name": "Indiana",
+      "abbreviation": "IN",
+      "age": 20
+    },
+    {
+      "name": "Iowa",
+      "abbreviation": "IA",
+      "age": 20
+    },
+    {
+      "name": "Kansas",
+      "abbreviation": "KS",
+      "age": 20
+    },
+    {
+      "name": "Kentucky",
+      "abbreviation": "KY",
+      "age": 20
+    },
+    {
+      "name": "Louisiana",
+      "abbreviation": "LA",
+      "age": 20
+    },
+    {
+      "name": "Maine",
+      "abbreviation": "ME",
+      "age": 20
+    },
+    {
+      "name": "Maryland",
+      "abbreviation": "MD",
+      "age": 20
+    },
+    {
+      "name": "Massachusetts",
+      "abbreviation": "MA",
+      "age": 20
+    },
+    {
+      "name": "Michigan",
+      "abbreviation": "MI",
+      "age": 20
+    },
+    {
+      "name": "Minnesota",
+      "abbreviation": "MN",
+      "age": 20
+    },
+    {
+      "name": "Mississippi",
+      "abbreviation": "MS",
+      "age": 20
+    },
+    {
+      "name": "Missouri",
+      "abbreviation": "MO",
+      "age": 20
+    },
+    {
+      "name": "Montana",
+      "abbreviation": "MT",
+      "age": 20
+    },
+    {
+      "name": "Nebraska",
+      "abbreviation": "NE",
+      "age": 20
+    },
+    {
+      "name": "Nevada",
+      "abbreviation": "NV",
+      "age": 20
+    },
+    {
+      "name": "New Hampshire",
+      "abbreviation": "NH",
+      "age": 20
+    },
+    {
+      "name": "New Jersey",
+      "abbreviation": "NJ",
+      "age": 20
+    },
+    {
+      "name": "New Mexico",
+      "abbreviation": "NM",
+      "age": 20
+    },
+    {
+      "name": "New York",
+      "abbreviation": "NY",
+      "age": 20
+    },
+    {
+      "name": "North Carolina",
+      "abbreviation": "NC",
+      "age": 20
+    },
+    {
+      "name": "North Dakota",
+      "abbreviation": "ND",
+      "age": 20
+    },
+    {
+      "name": "Ohio",
+      "abbreviation": "OH",
+      "age": 20
+    },
+    {
+      "name": "Oklahoma",
+      "abbreviation": "OK",
+      "age": 20
+    },
+    {
+      "name": "Oregon",
+      "abbreviation": "OR",
+      "age": 20
+    },
+    {
+      "name": "Pennsylvania",
+      "abbreviation": "PA",
+      "age": 20
+    },
+    {
+      "name": "Rhode Island",
+      "abbreviation": "RI",
+      "age": 20
+    },
+    {
+      "name": "South Carolina",
+      "abbreviation": "SC",
+      "age": 20
+    },
+    {
+      "name": "South Dakota",
+      "abbreviation": "SD",
+      "age": 20
+    },
+    {
+      "name": "Tennessee",
+      "abbreviation": "TN",
+      "age": 20
+    },
+    {
+      "name": "Texas",
+      "abbreviation": "TX",
+      "age": 20
+    },
+    {
+      "name": "Utah",
+      "abbreviation": "UT",
+      "age": 20
+    },
+    {
+      "name": "Vermont",
+      "abbreviation": "VT",
+      "age": 20
+    },
+    {
+      "name": "Virginia",
+      "abbreviation": "VA",
+      "age": 20
+    },
+    {
+      "name": "Washington",
+      "abbreviation": "WA",
+      "age": 20
+    },
+    {
+      "name": "West Virginia",
+      "abbreviation": "WV",
+      "age": 20
+    },
+    {
+      "name": "Wisconsin",
+      "abbreviation": "WI",
+      "age": 20
+    },
+    {
+      "name": "Wyoming",
+      "abbreviation": "WY",
+      "age": 20
+    }
+  ]
+}
