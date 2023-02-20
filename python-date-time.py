@@ -47,7 +47,7 @@
 # print("Total seconds =", t.total_seconds())
 
 
-from datetime import datetime
+# from datetime import datetime
 
 # # current date and time
 # now = datetime.now()
@@ -64,6 +64,10 @@ from datetime import datetime
 # print("s2:", s2)
 # print(type(s2))
 
-d1=datetime.now()
-d2=d1.strftime("%Z")
-print((d2))
+# d1=datetime.now()
+# d2=d1.strftime("%Z")
+# print((d2))
+
+import pytz
+tz=pytz.timezone("UTC")
+print(tz)

@@ -47,4 +47,9 @@
 # print(dic.keys())
 # print(type(dic))
 
+# import  json
+# with open('/home/omkar/Downloads/oura-sample-data/sleep_2022-12-13_2022-12-14.json','r')  as f:
+#     obj=json.load(f)
+#     str=json.dumps(obj,indent=2);
+#     print(str)
 
