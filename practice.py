@@ -420,4 +420,3 @@ but for binery
 # add_value=reduce(lambda x,y:x+y,l)
 # print(value,add_value)
 
-

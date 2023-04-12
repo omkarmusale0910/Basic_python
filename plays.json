@@ -1,0 +1,63 @@
+{
+    "Variant": {
+        "S": "V1 - 30 minutes"
+    },
+    "Segments": {
+        "L": [
+            {
+                "M": {
+                    "StartEvent": {
+                        "M": {
+                            "Duration": {
+                                "N": "0"
+                            },
+                            "Trigger": {
+                                "S": "ScheduledPlay"
+                            },
+                            "Intensity": {
+                                "N": "70"
+                            },
+                            "SegmentIndex": {
+                                "N": "0"
+                            },
+                            "TimeStamp": {
+                                "N": "1639488600"
+                            }
+                        }
+                    },
+                    "EndEvent": {
+                        "M": {
+                            "Duration": {
+                                "N": "1795"
+                            },
+                            "Trigger": {
+                                "S": "WaveCompleted"
+                            },
+                            "Intensity": {
+                                "N": "70"
+                            },
+                            "SegmentIndex": {
+                                "N": "0"
+                            },
+                            "SegmentDuration": {
+                                "N": "1795"
+                            },
+                            "TimeStamp": {
+                                "N": "1639490395"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "Adjustments": {
+        "L": []
+    },
+    "Goal": {
+        "S": "Wake Up"
+    },
+    "Id": {
+        "S": "64632332"
+    }
+}
