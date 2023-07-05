@@ -79,18 +79,24 @@ def git_add_commit_push(msg:str="added os,subprocess,re,gcs module code"):
         return Exception("git commit -m msg cmd not run")
     else:
         print(git_commit.stdout)
-    git_push=subprocess.run(f'git push origin master"',shell=True,text=True,capture_output=True)
+    git_push=subprocess.run('git push origin master',shell=True,text=True,capture_output=True)
     if git_push.returncode!=0:
         return Exception("git push origin master cmd not run")
     else:
         print(git_push.stdout)   
+    
+    return 0
 
 
 try:
     print("come")
-    ex=git_add_commit_push("added os,subprocess,re,gcs module script")
+    ex=git_add_commit_push("testing git_add_commit_push function")
     print(ex)
-    print("succesful")
+    if ex==0:
+        print("succesful")
+    else:
+        print(ex)
 except Exception as e:
     print(e)
+
 
