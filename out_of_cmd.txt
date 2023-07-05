@@ -1,0 +1,31 @@
+total 160
+drwxrwxr-x  7 omkar omkar  4096 Jul  5 15:27 .
+drwxr-xr-x 31 omkar omkar 12288 Jun 30 13:31 ..
+-rw-rw-r--  1 omkar omkar   306 Jun 29 08:41 chefClass.py
+-rw-rw-r--  1 omkar omkar   622 Jul  3 07:26 class.py
+-rw-rw-r--  1 omkar omkar    42 Jan 19 13:13 college.txt
+-rw-rw-r--  1 omkar omkar  3287 Feb 16 14:55 date&timezone.ipynb
+-rw-rw-r--  1 omkar omkar   498 Jan 18 13:11 firstModule.py
+-rw-rw-r--  1 omkar omkar    43 Jul  4 11:11 gcs_with-python.py
+drwxrwxr-x  8 omkar omkar  4096 Jul  5 17:11 .git
+-rw-rw-r--  1 omkar omkar 13821 Jan 19 12:26 hellowpro.py
+drwxrwxr-x  3 omkar omkar  4096 Feb 20 13:29 .idea
+drwxrwxr-x  2 omkar omkar  4096 Feb 16 12:41 .ipynb_checkpoints
+-rw-rw-r--  1 omkar omkar  1347 Feb 20 13:02 json_practice.py
+-rw-rw-r--  1 omkar omkar   528 Jan 18 13:11 main.py
+-rw-rw-r--  1 omkar omkar  5424 Jun 30 16:30 multiprocessing_threding.py
+-rw-rw-r--  1 omkar omkar  4192 Feb 12 18:04 new_states.json
+-rw-rw-r--  1 omkar omkar   815 Jul  5 13:08 os_module.py
+-rw-rw-r--  1 omkar omkar     0 Jul  5 17:12 out_of_cmd.txt
+-rw-rw-r--  1 omkar omkar 13260 Jun 29 09:37 output.txt
+-rw-rw-r--  1 omkar omkar  1855 Mar 29 18:23 plays.json
+-rw-rw-r--  1 omkar omkar  8342 Feb 21 15:47 practice.py
+drwxrwxr-x  2 omkar omkar  4096 Jul  3 17:43 __pycache__
+-rw-rw-r--  1 omkar omkar  1421 Feb 16 12:32 python-date-time.py
+-rw-rw-r--  1 omkar omkar  1454 Jul  5 10:20 regex_module.py
+-rw-rw-r--  1 omkar omkar   403 Jul  4 10:55 requirement.txt
+-rw-rw-r--  1 omkar omkar   195 Jul  3 17:47 retry_module.py
+-rw-rw-r--  1 omkar omkar    82 Jan 18 13:11 salary.txt
+-rw-rw-r--  1 omkar omkar  1562 Jul  5 17:12 subprocess_module.py
+drwxrwxr-x  4 omkar omkar  4096 Feb 12 17:14 venv
+
